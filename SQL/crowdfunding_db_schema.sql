@@ -1,6 +1,6 @@
 -- To Drop the table if it exiest 
 DROP TABLE backers
-
+DROP TABLE campaign
 
 -- To create backers table
 CREATE TABLE backers (
@@ -34,5 +34,4 @@ CREATE TABLE campaign(
 
 -- Qury for selecting the first 10 rows
 SELECT * FROM backers LIMIT 10 
-
 SELECT * FROM campaign LIMIT 10 
